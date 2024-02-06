@@ -58,6 +58,10 @@ img{
     fill: #fff;
 }
 
+.header-icon:hover{
+    fill: #FFC978;
+}
+
 .header-btn{
     display: flex;
     margin-left: auto;
