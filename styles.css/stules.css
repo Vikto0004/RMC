@@ -50,6 +50,14 @@ img{
     padding: 50px 0 70px 0;
 }
 
+.header-btn{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
 /*-----HERO-----*/
 
 .hero {
