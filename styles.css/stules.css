@@ -54,7 +54,7 @@ img{
     display: flex;
 }
 
-.hearer-logo-icon{
+.header-icon{
     fill: #fff;
 }
 
@@ -64,10 +64,6 @@ img{
     justify-content: center;
     align-items: center;
     background-color: transparent;
-}
-
-.header-btn-icon{
-    fill: #fff;
 }
 
 /*-----HERO-----*/
