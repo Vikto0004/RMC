@@ -50,12 +50,24 @@ img{
     padding: 50px 0 70px 0;
 }
 
+.header-container{
+    display: flex;
+}
+
+.hearer-logo-icon{
+    fill: #fff;
+}
+
 .header-btn{
     display: flex;
     margin-left: auto;
     justify-content: center;
     align-items: center;
     background-color: transparent;
+}
+
+.header-btn-icon{
+    fill: #fff;
 }
 
 /*-----HERO-----*/
