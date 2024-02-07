@@ -1,0 +1,44 @@
+@media screen and (min-width: 1290px){
+    .container{
+        width: 1290px;
+    }
+
+    .services {
+        padding: 140px 0;
+    }
+
+    .services-container{
+        position: relative;
+    }
+
+    .services-text{
+        text-align: center;
+    }
+
+    .services-title{
+        font-size: 60px;
+        margin: 0;
+        position: absolute;
+        top: 34px;
+        left: 415px;
+    }
+
+    .swiper{
+        margin-top: 13px;
+    }
+
+    .swiper-wrapper{
+        gap: 30px;
+    }
+
+    .swiper-container-top{
+        margin-top: 130px;
+    }
+
+    .services-item-img {
+        width: 300px;
+        height: 500px;
+    }
+
+    
+}
