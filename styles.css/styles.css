@@ -181,6 +181,12 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 332px) {
+  .hero {
+    background-position: 0 115%;
+  }
+}
+
 .hero-intr {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
