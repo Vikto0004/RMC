@@ -1,44 +1,100 @@
-@media screen and (min-width: 1290px){
-    .container{
-        width: 1290px;
-    }
+@media screen and (min-width: 1290px) {
+  .container {
+    max-width: 1290px;
+  }
 
-    .services {
-        padding: 140px 0;
-    }
+  /*-----HEADER-----*/
 
-    .services-container{
-        position: relative;
-    }
+  .header-container {
+    max-width: 1720px;
+  }
 
-    .services-text{
-        text-align: center;
-    }
+  .header-logo {
+    padding: 25px 0;
+  }
 
-    .services-title{
-        font-size: 60px;
-        margin: 0;
-        position: absolute;
-        top: 34px;
-        left: 415px;
-    }
+  .header-icon {
+    width: 108px;
+    height: 47px;
+  }
 
-    .swiper{
-        margin-top: 13px;
-    }
+  .header-icon:hover {
+    fill: #ffc978;
+  }
 
-    .swiper-wrapper{
-        gap: 30px;
-    }
+  .header-btn {
+    display: none;
+  }
 
-    .swiper-container-top{
-        margin-top: 130px;
-    }
+  .header-list {
+    display: flex;
+    gap: 35px;
+    margin-left: 182px;
+  }
 
-    .services-item-img {
-        width: 300px;
-        height: 500px;
-    }
+  .header-list-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: right;
+    color: #abaeb7;
+  }
 
-    
+  .header-list-link:hover,
+  .header-list-link:focus {
+    color: #ffc978;
+  }
+
+  .header-tel-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 133px;
+    height: 49px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: auto;
+  }
+
+  .services {
+    padding: 140px 0;
+  }
+
+  .services-container {
+    position: relative;
+  }
+
+  .services-text {
+    text-align: center;
+  }
+
+  .services-title {
+    font-size: 60px;
+    margin: 0;
+    position: absolute;
+    top: 34px;
+    left: 415px;
+  }
+
+  .swiper {
+    margin-top: 13px;
+  }
+
+  .swiper-wrapper {
+    gap: 30px;
+  }
+
+  .swiper-container-top {
+    margin-top: 130px;
+  }
+
+  .services-item-img {
+    width: 300px;
+    height: 500px;
+  }
 }

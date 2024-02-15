@@ -76,6 +76,14 @@ img {
   background-color: transparent;
 }
 
+.header-list {
+  display: none;
+}
+
+.header-tel-link {
+  display: none;
+}
+
 /*-----MOB-MENU-----*/
 
 .mob-menu-container {
