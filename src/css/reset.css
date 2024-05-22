@@ -1,6 +1,6 @@
 /* Reset styles */
 body {
-  background: #0b0e17;
+  background: rgba(36, 38, 45);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -9,6 +9,7 @@ body {
   color: #434455;
   margin: 0;
   overflow-x: hidden;
+  padding-top: 90px;
 }
 
 h1,
@@ -44,4 +45,20 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 50px;
+  }
 }
