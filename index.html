@@ -5,22 +5,30 @@
     <link rel="icon" type="image/svg+xml" href="/RMC/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RMC</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     
     <script type="module" crossorigin src="/RMC/commonHelpers2.js"></script>
-    <link rel="stylesheet" href="/RMC/assets/index-fa036759.css">
+    <link rel="stylesheet" href="/RMC/assets/index-854efe9e.css">
   </head>
   <body>
     <header class="header">
   <div class="header-container container">
-    <a class="header-logo" href="./index.html">
-      <!-- <svg class="header-icon" width="66px" height="24px">
-        <use href="./icons/icons.svg#icon-herro"></use>
-      </svg> -->
+    <a class="header-logo" href="./">
+      <svg class="header-icon" width="66px" height="24px">
+        <use href="/RMC/assets/sprite-f4685741.svg#icon-herro"></use>
+      </svg>
     </a>
     <button class="header-btn js-open-menu" type="button">
-      <!-- <svg class="header-icon" width="27px" height="24px">
-        <use href="./icons/icons.svg#icon-burger"></use>
-      </svg> -->
+      <svg class="header-icon" width="27px" height="24px">
+        <use href="/RMC/assets/sprite-f4685741.svg#icon-burger"></use>
+      </svg>
     </button>
     <ul class="header-list">
       <li><a class="header-list-link" href="#studio">THE STUDIO</a></li>
@@ -35,30 +43,36 @@
   <div class="mob-menu-container js-menu-container">
     <div class="mob-menu-wrap-logo">
       <a class="mob-menu-logo" href="./index.html">
-        <!-- <svg class="header-icon" width="66px" height="24px">
-          <use href="./icons/icons.svg#icon-herro"></use>
-        </svg> -->
+        <svg class="header-icon" width="66px" height="24px">
+          <use href="/RMC/assets/sprite-f4685741.svg#icon-herro"></use>
+        </svg>
       </a>
       <button class="mob-menu-btn js-close-menu" type="button">
-        <!-- <svg class="header-icon" width="35px" height="35px">
-          <use href="./icons/icons.svg#icon-close"></use>
-        </svg> -->
+        <svg class="header-icon" width="35px" height="35px">
+          <use href="/RMC/assets/sprite-f4685741.svg#icon-close"></use>
+        </svg>
       </button>
     </div>
     <ul class="mob-menu-list">
-      <li><a class="mob-list-link" href="#studio">THE STUDIO</a></li>
-      <li><a class="mob-list-link" href="#projects">PROJECTS</a></li>
-      <li>
+      <li class="mob-menu-item">
+        <a class="mob-list-link" href="#studio">THE STUDIO</a>
+      </li>
+      <li class="mob-menu-item">
+        <a class="mob-list-link" href="#projects">PROJECTS</a>
+      </li>
+      <li class="mob-menu-item">
         <a class="mob-list-link" href="#architecture">ARCHITECTURE</a>
       </li>
-      <li><a class="mob-list-link" href="#blog">BLOG</a></li>
+      <li class="mob-menu-item">
+        <a class="mob-list-link" href="#blog">BLOG</a>
+      </li>
     </ul>
     <a class="mob-menu-tel-link" href="tel:01761531774">Contact</a>
   </div>
 </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="studio">
   <p class="hero-intr">Interior</p>
   <div class="container">
     <h3 class="hero-text">Architecture design</h3>
@@ -186,7 +200,7 @@
   </div>
 </section>
 
-      <section class="projects">
+      <section class="projects" id="projects">
   <div class="container">
     <h3 class="projects-text">OUR PROJECT</h3>
     <h2 class="projects-title">Our Latest Projects</h2>
@@ -233,7 +247,7 @@
   </div>
 </section>
 
-      <section class="experience">
+      <section class="experience" id="architecture">
   <div class="container">
     <h2 class="experience-title">We Create Digital Experience</h2>
     <ul class="experience-list">
