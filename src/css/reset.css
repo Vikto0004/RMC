@@ -9,7 +9,6 @@ body {
   color: #434455;
   margin: 0;
   overflow-x: hidden;
-  padding-top: 90px;
 }
 
 h1,
@@ -51,14 +50,26 @@ img {
   padding: 0 15px;
 }
 
+.section {
+  padding-top: 80px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding: 0 30px;
+  }
+
+  .section {
+    padding-top: 100px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     padding: 0 50px;
+  }
+
+  .section {
+    padding-top: 140px;
   }
 }

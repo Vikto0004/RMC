@@ -69,6 +69,7 @@
 
 .swiper-wrapper {
   gap: 0;
+  display: none;
 }
 
 .swiper-container-top {

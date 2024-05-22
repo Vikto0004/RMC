@@ -25,9 +25,9 @@
 }
 
 .about-container-top {
-  display: flex;
+  /* display: flex;
   gap: 18px;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .about-container-top > img:first-child {
@@ -69,7 +69,7 @@
 }
 
 .about-img {
-  max-width: 388px;
+  /* max-width: 388px; */
   height: 175px;
   margin: 20px auto 0 auto;
 }
@@ -86,4 +86,5 @@
   top: 75%;
   left: 40%;
   z-index: -1;
+  display: none;
 }
