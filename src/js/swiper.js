@@ -1,5 +1,3 @@
-// import Swiper from 'swiper';
-// import 'swiper/css';
 const elSlides = document.querySelectorAll('.services-item');
 const elImages = document.querySelectorAll('.services-item-img');
 
