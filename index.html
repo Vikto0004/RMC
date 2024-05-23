@@ -13,9 +13,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     
     <script type="module" crossorigin src="/RMC/commonHelpers2.js"></script>
-    <link rel="stylesheet" href="/RMC/assets/index-f4704612.css">
+    <link rel="stylesheet" href="/RMC/assets/index-5665b8da.css">
   </head>
   <body>
     <header class="header">
@@ -98,21 +103,20 @@
   </div>
 </section>
 
-      <section class="services">
+      <section class="section">
   <div class="container services-container">
     <h3 class="services-text">TOP SERVICES</h3>
     <h2 class="services-title">Our Specializations</h2>
-    <div class="swiper">
+    <div class="swiper swiper-container mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" style="width: auto">
-          <a href="./index.html">
-            <!-- <img
+        <div class="swiper-slide services-item">
+          <a href="./">
+            <img
               class="services-item-img"
-              src="./images/services/services-1.jpg"
-              width="320px"
-              height="412px"
-              alt=""
-            /> -->
+              srcset="/RMC/assets/services-1-9b46bc54.jpg 1x, /RMC/assets/services-1-2x-5e5c4867.png 2x"
+              src="/RMC/assets/services-1-9b46bc54.jpg"
+              alt="Floor plan"
+            />
             <div class="services-item-container">
               <h3 class="services-item-title">Floor plan</h3>
               <p class="services-item-text">
@@ -121,15 +125,14 @@
             </div>
           </a>
         </div>
-        <div class="swiper-slide swiper-container-top" style="width: auto">
+        <div class="swiper-slide services-item">
           <a href="./index.html">
-            <!-- <img
+            <img
               class="services-item-img"
-              src="./images/services/services-2.jpg"
-              width="320px"
-              height="412px"
-              alt=""
-            /> -->
+              srcset="/RMC/assets/services-2-6e38a9a5.jpg 1x, /RMC/assets/services-2-2x-609c88fe.jpg 2x"
+              src="/RMC/assets/services-2-6e38a9a5.jpg"
+              alt="Interior Design"
+            />
             <div class="services-item-container">
               <h3 class="services-item-title">Interior Design</h3>
               <p class="services-item-text">
@@ -138,15 +141,14 @@
             </div>
           </a>
         </div>
-        <div class="swiper-slide swiper-container-top" style="width: auto">
+        <div class="swiper-slide services-item">
           <a href="./index.html">
-            <!-- <img
+            <img
               class="services-item-img"
-              src="./images/services/services-3.jpg"
-              width="320px"
-              height="412px"
-              alt=""
-            /> -->
+              srcset="/RMC/assets/services-3-17ebb937.jpg 1x, /RMC/assets/services-3-2x-5193a5b1.jpg 2x"
+              src="/RMC/assets/services-3-17ebb937.jpg"
+              alt="Architecture Design"
+            />
             <div class="services-item-container">
               <h3 class="services-item-title">Architecture Design</h3>
               <p class="services-item-text">
@@ -155,15 +157,14 @@
             </div>
           </a>
         </div>
-        <div class="swiper-slide" style="width: auto">
+        <div class="swiper-slide services-item">
           <a href="./index.html">
-            <!-- <img
+            <img
               class="services-item-img"
-              src="./images/services/services-4.jpg"
-              width="320px"
-              height="412px"
-              alt=""
-            /> -->
+              srcset="/RMC/assets/services-4-757686ae.jpg 1x, /RMC/assets/services-4-2x-c5bcafb5.jpg 2x"
+              src="/RMC/assets/services-4-757686ae.jpg"
+              alt="Construction"
+            />
             <div class="services-item-container">
               <h3 class="services-item-title">Construction</h3>
               <p class="services-item-text">
@@ -173,6 +174,7 @@
           </a>
         </div>
       </div>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </section>
@@ -288,6 +290,7 @@
 </section>
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
   </body>
 </html>
