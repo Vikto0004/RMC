@@ -6,7 +6,6 @@
 }
 
 .hero-wrap {
-  max-width: 400px;
   padding-top: 90px;
 }
 
@@ -78,6 +77,11 @@
   text-transform: capitalize;
   color: #fff;
   margin-top: 30px;
+}
+
+.hero-picture,
+.hero-picture img {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
