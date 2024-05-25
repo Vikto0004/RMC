@@ -12,6 +12,8 @@
 @import url('./projects.css');
 @import url('./experience.css');
 @import url('./avaibility.css');
+@import url('./team.css');
+@import url('./footer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

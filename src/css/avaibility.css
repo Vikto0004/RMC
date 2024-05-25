@@ -134,13 +134,14 @@
   .avaibility-wrap-two {
     display: flex;
     gap: 25px;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .avaibility-img {
     display: block;
     min-width: 120px;
     object-fit: contain;
+    max-height: 400px;
   }
 }
 
