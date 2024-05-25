@@ -1,0 +1,50 @@
+.avaibility-table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+
+.avaibility-table td {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.avaibility-table td:not(:last-child) {
+  padding-right: 60px;
+}
+
+.avaibility-tabl-title {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  color: #ffb076;
+}
+
+.avaibility-tabl-other {
+  color: #abaeb7;
+}
+
+.avaibility-residence {
+  color: #fff;
+}
+
+.avaibility-tabl-view {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tabl-current {
+  position: relative;
+}
+
+.tabl-current::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #abaeb7;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
