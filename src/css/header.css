@@ -163,10 +163,13 @@
     transition: all 0.4s ease;
   }
 
+  .header-list li:nth-child(1) a {
+    color: #ffb077;
+  }
+
   .header-list-link:focus,
   .header-list-link:hover {
     color: #ffc978;
-    font-size: 12.3px;
   }
 
   .header-tel-link {
@@ -199,10 +202,5 @@
 
   .header-list-link {
     font-size: 16px;
-  }
-
-  .header-list-link:focus,
-  .header-list-link:hover {
-    font-size: 16.3px;
   }
 }
